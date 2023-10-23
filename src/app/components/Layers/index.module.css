@@ -1,0 +1,39 @@
+.wrapper {
+    width: 342px;
+    position: absolute;
+    top: 58%;
+    left: 14%;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background: white;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.wrapperItem {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.wrapperItem:last-child {
+    padding-bottom: 0;
+}
+
+.groupCheckbox {
+    display: flex;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    background: rgba(109, 109, 109, 1);
+    border: 3px solid rgba(109, 109, 109, 1);
+}
+
+.p {
+    padding-left: 10px;
+    color: black;
+}
